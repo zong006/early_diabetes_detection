@@ -20,7 +20,7 @@ def pre_processing_data(df):
     X_train = scaler.fit_transform(X_train)
     X_test = scaler.transform(X_test)
 
-    smote_enn = SMOTEENN(sampling_strategy='auto')
+    smote_enn = SMOTEENN(sampling_strategy='auto', random_state=42)
     X_train, y_train = smote_enn.fit_resample(X_train, y_train)
     
     return X_train, y_train, X_test, y_test
