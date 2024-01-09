@@ -34,7 +34,7 @@ def logregclassifier(X_train, y_train, X_test, y_test):
     classification_report_str = classification_report(y_test, y_pred)
 
     print(f"Accuracy: {accuracy:.2f}")
-    print("\nClassification Report:\n", classification_rep)
+    print("\nClassification Report:\n", classification_report_str)
 
     print("Confusion Matrix:")
     print(conf_matrix)
