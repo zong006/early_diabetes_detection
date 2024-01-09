@@ -2,6 +2,7 @@ from data_extraction import extract_data
 from data_preprocessing import pre_processing_data
 from algo import randomforestclassifier, logregclassifier
 import pandas as pd
+import numpy as np
 
 def main():
     extracted_data = extract_data()
