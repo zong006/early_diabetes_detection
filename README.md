@@ -4,7 +4,7 @@ A simple machine learning project on a classification task with a slightly imbal
 #### DataSet 
 The dataset used here for early diabetes detection is from the following Kaggle URL :
 
-https://www.kaggle.com/code/therealsampat/early-stage-diabetes-prediction
+https://www.kaggle.com/datasets/ishandutta/early-stage-diabetes-risk-prediction-dataset
 
 - Age: Age of the individual (1.20-65).
 - Sex: Gender of the individual (1. Male, 2. Female).
