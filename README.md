@@ -1,5 +1,6 @@
-A simple machine learning project on a classification task with a slightly imbalanced target class. 
+#### Summary
 
+A Random Forest classification model with ScikitLearn to accurately detect early-stage diabetes, achieving exceptional performance with an F1 score exceeding 0.95 across all classes.
 
 #### DataSet 
 The dataset used here for early diabetes detection is from the following Kaggle URL :
